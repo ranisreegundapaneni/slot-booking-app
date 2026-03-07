@@ -1,14 +1,16 @@
 {
   "name": "booking",
   "version": "1.0.0",
-  "description": "slot booking backend",
+  "description": "Slot Booking Backend API using Node.js and Express",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
+  "keywords": ["nodejs", "express", "slot-booking", "api"],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
